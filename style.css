@@ -78,29 +78,34 @@ img {
 
 #first {
     float: left;
-    padding: 5px;
-    width: 30%;
+    padding: 5%;
+    width: 40%;
 }
 
 #second {
     float: left;
-    padding: 5px;
-    width: 33%;
+    padding: 5%;
+    width: 40%;
 }
 
 #third {
     float: left;
-    padding: 5px;
-    width: 33%;
+    padding: 5%;
+    width: 90%;
 }
 
 #wrapper footer {
     clear: both;
     border: 1px solid black;
-    widows: 100%;
+    width: 100%;
     background-color: darkgrey;
     text-align: center;
-    height: 150px;
-    padding: 25px;
+}
+
+@media screen and (max-width: 820px) {
+    #wrapper {
+        padding: 0;
+        max-width: 100%;
+    }
 }
 
