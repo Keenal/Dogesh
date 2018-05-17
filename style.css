@@ -56,3 +56,11 @@ img {
     padding: 10px;
     display: none;
 }
+
+#wrapper {
+    max-width: 1180px;
+    border: 1px solid black; 
+    position: relative;
+    top: 40px;
+    margin: 0 auto;
+}
