@@ -20,15 +20,20 @@ img {
 
 #navbar {
     background-color: black;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block;
+    width: 100%;
+    z-index: 100;
+    overflow: hidden;
 }
 
 #navbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
     background-color: black;
-    z-index: 100;
 }
 
 #navbar li {
@@ -37,7 +42,7 @@ img {
 
 #navbar li a {
     display: inline-block;
-    padding: 10px 5px;
+    padding: 15px;
     text-decoration: none;
     font-size: 1em;
     color: aliceblue;
@@ -60,7 +65,7 @@ img {
 #wrapper {
     max-width: 1180px; 
     position: relative;
-    top: 40px;
+    top: 60px;
     margin: 0 auto;
 }
 
@@ -93,6 +98,9 @@ img {
     clear: both;
     border: 1px solid black;
     widows: 100%;
-    background-color: dimgray;
+    background-color: darkgrey;
+    text-align: center;
+    height: 150px;
+    padding: 25px;
 }
 
