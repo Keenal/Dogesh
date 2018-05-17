@@ -67,38 +67,39 @@ img {
     position: relative;
     top: 60px;
     margin: 0 auto;
+    padding: 2%;
 }
 
 #wrapper header {
     padding: 10px 20px;
     background-color: azure;
     border-radius: 1em;
+    height: 120px;
 }
 
 
 #first {
     float: left;
-    padding: 5%;
-    width: 40%;
+    padding: 5px;
+    width: 34%;
 }
 
 #second {
     float: left;
-    padding: 5%;
-    width: 40%;
+    padding: 5px;
+    width: 34%;
 }
 
 #third {
     float: left;
-    padding: 5%;
-    width: 90%;
+    padding: 5px;
+    width: 28%;
 }
 
 #wrapper footer {
     clear: both;
-    border: 1px solid black;
-    width: 100%;
-    background-color: darkgrey;
+    width: 96%;
+    background-color: lightgrey;
     text-align: center;
 }
 
@@ -106,6 +107,52 @@ img {
     #wrapper {
         padding: 0;
         max-width: 100%;
+    }
+    #wrapper header {
+        padding: 0;
+        border-radius: 0;
+    }
+    #first {
+        padding: 3%;
+        width: 44%;
+    }
+    #second {
+        float: right;
+        padding: 3%;
+        width: 44%;
+    }
+    #third {
+        clear: both;
+        padding: 5%;
+        width: 90%;
+    }
+    #wrapper footer {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #wrapper {
+        width: auto;
+    }
+    #first {
+        width: auto;
+        float: none;
+        margin: 0px;
+    }
+    #second {
+        width: auto;
+        float: none;
+        margin: 0px;
+    }
+    #third {
+        width: auto;
+        float: none;
+        margin: 0px;
+    }
+    #wrapper footer {
+        width: auto;
     }
 }
 
