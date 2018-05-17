@@ -58,9 +58,41 @@ img {
 }
 
 #wrapper {
-    max-width: 1180px;
-    border: 1px solid black; 
+    max-width: 1180px; 
     position: relative;
     top: 40px;
     margin: 0 auto;
 }
+
+#wrapper header {
+    padding: 10px 20px;
+    background-color: azure;
+    border-radius: 1em;
+}
+
+
+#first {
+    float: left;
+    padding: 5px;
+    width: 30%;
+}
+
+#second {
+    float: left;
+    padding: 5px;
+    width: 33%;
+}
+
+#third {
+    float: left;
+    padding: 5px;
+    width: 33%;
+}
+
+#wrapper footer {
+    clear: both;
+    border: 1px solid black;
+    widows: 100%;
+    background-color: dimgray;
+}
+
