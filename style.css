@@ -50,10 +50,11 @@ img {
     
 }
 
-#navbar li a:hover {
+#navbar li a:hover, #navbar li.active a {
     background-color: white;
     color:black;
 }
+
 
 .myicon {
     color: aliceblue;

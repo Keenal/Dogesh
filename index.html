@@ -61,6 +61,22 @@ At solmen va esser necessi far uniform grammatica, pronunciation e plu sommun pa
                     console.dir(e);
                     $('#navbar ul').toggleClass('sm-screen');
                 })
+                
+                function activeSetup(){
+                    var urlPath = window.location.pathname;
+                    console.log(urlPath);
+                    $('nav a').each(function (){
+                        console.log($(this));
+                        var href = $(this).attr('href');
+                    //    console.log(href);
+                    //    console.log(urlPath.substring(0, href.length));
+                        
+                        if(urlPath==href){
+                            console.log('match');
+                            $(this).closest('li').addClass('active');
+                        }
+                    })
+                }
             })
         </script>
     </body>
